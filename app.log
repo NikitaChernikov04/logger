@@ -1,0 +1,10 @@
+2024-10-30 19:23:43,058 - custom_logger - INFO - Запрошена основная страница
+2024-10-30 19:23:45,501 - custom_logger - INFO - Запрошена основная страница
+2024-10-30 19:24:18,809 - custom_logger - DEBUG - Запрошена страница отладки
+2024-10-30 19:24:33,734 - custom_logger - ERROR - Ошибка деления на ноль!
+Traceback (most recent call last):
+  File "C:\Users\Никита\Desktop\logger\main.py", line 36, in error_page
+    result = 1 / 0  # Искусственная ошибка
+             ~~^~~
+ZeroDivisionError: division by zero
+2024-10-30 19:24:57,589 - custom_logger - CRITICAL - Критическая ошибка на этой странице!
